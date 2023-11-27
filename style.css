@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Components */
+section {
+    padding: 40px 20px 40px 20px;
+    max-width: 1000px;
+
+}
+
+/* Navigation bar */
+.nav-link {
+    color: rgb(226 232 240) !important;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Header */
+#header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+/* How it works */
+#how-it-works .steps {
+    margin-top: 30px;
+}
+
+/* Projects */
+#projects .project-showcase {
+    margin-top: 30px;
+    gap: 30px;
+}
+
+#projects .project-card {
+    width: 400px;
+}
